@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather Analysis</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+        <nav class="navbar navbar-inverse navbar-custom navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand nav-link" href="weather.html">Latitude</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">Plots<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="temp.html">Max Temperature</a></li>
+                                <li><a href="#">Humidity</a></li>
+                                <li><a href="#">Cloudiness</a></li>
+                                <li><a href="#">Wind Speed</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Comparison</a></li>
+                        <li><a href="#">Data</a></li>
+                    </ul>
+    
+                </div>
+            </div>
+        </nav>
+    <div class= "pad container-fluid ">
+        <div class="pad container-fluid col-md-6">
+            <h1 class="center">Latitude and Temperature</h1>
+            <hr size=2>
+            <img class="col-md-12" src="Resources/assets/images/Fig1.png" alt="lat vs temp" align="middle">
+            <p>
+                As expected, the closer the location to the equator, the higher the Temperature. The observation is made for the locations closer to 0 degree
+                exhibited higher temperature while locations further from 0 degree tends to have lower temperature. 
+            </p>
+        </div>
+        <div class="pad container-fluid col-md-6">
+            <h1>Visualizations</h1>
+            <hr size=2>
+        
+            <img class=" img img-thumbnail img_left border" src="Resources/assets/images/Fig1.png" alt="lat vs temp" href="#">
+            <img class=" img img-thumbnail img_right " src="Resources/assets/images/Fig2.png" alt="lat vs Humidity" href="#">
+            <img class=" img img-thumbnail img_left" src="Resources/assets/images/Fig3.png" alt="lat vs wind" href="#">
+            <img class=" img img-thumbnail img_right" src="Resources/assets/images/Fig4.png" alt="lat vs cloud" href="#">
+        </div>
+    </div>
+
+    <footer class="container-fluid">
+        <p>Created by Yanin Swangrujithum</p>
+    </footer>
+</body>
