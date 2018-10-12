@@ -11,29 +11,37 @@
 </head>
 <body>
         <nav class="navbar navbar-inverse navbar-custom navbar-fixed-top">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand nav-link" href="weather.html">Latitude</a>
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarNav" aria-expanded="false" aria-controls="navbarNav">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand nav-link" href="weather.html">Latitude</a>
+
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">Plots<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="temp.html">Max Temperature</a></li>
+                                    <li><a href="humid.html">Humidity</a></li>
+                                    <li><a href="cloud.html">Cloudiness</a></li>
+                                    <li><a href="wind.html">Wind Speed</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="compare.html">Comparison</a></li>
+                            <li><a href="data.html">Data</a></li>
+                        </ul>
+        
+                    </div>
                 </div>
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
-                            aria-expanded="false">Plots<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="temp.html">Max Temperature</a></li>
-                                <li><a href="humid.html">Humidity</a></li>
-                                <li><a href="cloud.html">Cloudiness</a></li>
-                                <li><a href="wind.html">Wind Speed</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Comparison</a></li>
-                        <li><a href="#">Data</a></li>
-                    </ul>
-    
-                </div>
-            </div>
-        </nav>
+            </nav>
     <div class= "pad container-fluid">
         <div class="pad container-fluid col-md-6">
             <h1 class="center">Latitude and Temperature</h1>
